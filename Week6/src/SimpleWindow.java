@@ -1,0 +1,19 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class SimpleWindow extends JFrame {
+
+
+    public SimpleWindow() {
+        final int WINDOW_WIDTH = 400;
+        final int WINDOW_HEIGHT = 500;
+
+        setTitle("My Second Simple Window");
+
+        setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
+
+
+
+
+    }
+}
